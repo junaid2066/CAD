@@ -29,10 +29,141 @@ DOI: [10.1109/11204064](https://ieeexplore.ieee.org/document/11204064)
 
 ---
 
-## 📘 Overview
+## 🧩 Modular Code Structure
 
+The repository is organized into clear, reusable Python modules for easier maintenance and extension.
+
+```
+Violence-Detection-Using-Deep-Learning/
+│
+├── RealLifeViolenceDS(Initial Results).ipynb
+├── Hockey Fight Dataset (Final Results).ipynb
+│
+├── modules/
+│   ├── preprocessing.py        # Frame extraction, resizing, normalization
+│   ├── model.py                # Model architecture (CNN / ResNet / MobileNetV2)
+│   ├── train.py                # Training script (augmentation, callbacks, optimizer)
+│   ├── test.py                 # Evaluation metrics and testing
+│   ├── plot_results.py         # Visualization: accuracy/loss curves & confusion matrix
+│
+├── main.py                     # Unified entrypoint combining preprocessing → training → testing
+├── requirements.txt
+└── README.md
+```
+---
+---
+
+## ⚙️ Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/mjunaidasif/Violence-Detection-Using-Deep-Learning.git
+cd Violence-Detection-Using-Deep-Learning
+pip install -r requirements.txt
+```
 
 ---
+
+## 🚀 Usage
+
+### 1️⃣ Preprocess Video Dataset
+
+```bash
+python modules/preprocessing.py --data_path /path/to/dataset
+```
+
+### 2️⃣ Train the Model
+
+```bash
+python modules/train.py --dataset /path/to/processed/data --model resnet
+```
+
+### 3️⃣ Test and Evaluate
+
+```bash
+python modules/test.py --weights /path/to/saved_model.h5
+```
+
+### 4️⃣ Plot Results
+
+```bash
+python modules/plot_results.py --history /path/to/training_history.json
+```
+
+### 5️⃣ Run Complete Pipeline
+
+```bash
+python main.py
+```
+
+---
+
+## 📊 Experimental Results
+
+### 🧩 Real-Life Violence Dataset (Initial Results)
+- **Accuracy:** 93.8%  
+- **Precision:** 0.93 
+- **Recall:** 0.92
+- **F1-Score:** 0.90
+
+### 🏒 Hockey Fight Dataset (Final Results)
+- **Accuracy:** 91.0%  
+- **Precision:** 0.91 
+- **Recall:** 0.82 
+- **F1-Score:** 0.86 
+
+These results confirm the model’s robustness across diverse environments and datasets.
+
+---
+
+## 🧠 Key Features
+
+- Modular and readable structure for reproducibility  
+- Transfer learning support (ResNet50, MobileNetV2, custom CNN)  
+- Evaluation on multiple datasets  
+- Visualization utilities for training and performance metrics  
+- Ready for integration with real-time systems
+
+---
+
+## 🧾 Citation
+
+If you use this repository or refer to this work, please cite the paper as:
+
+```
+@INPROCEEDINGS{11204064,
+  author={Asif, Muhammad Junaid and others},
+  title={Real-Time Violence Detection Using Deep Learning},
+  booktitle={Proceedings of the IEEE International Conference on Artificial Intelligence and Machine Vision (AIMV)},
+  year={2025},
+  doi={10.1109/11204064}
+}
+```
+
+---
+
+## 📖 Repository Citation
+
+If you use this repository in your research or projects, please cite it as:
+
+> Muhammad Junaid Asif, *Violence Detection Using Deep Learning*, GitHub Repository, 2025.  
+> Available at: [https://github.com/mjunaidasif/Violence-Detection-Using-Deep-Learning](https://github.com/mjunaidasif/Violence-Detection-Using-Deep-Learning)
+
+---
+
+## ✍️ Author
+
+👨‍💻 **Developed by Muhammad Junaid Asif**  
+🔗 GitHub: [@mjunaidasif](https://github.com/mjunaidasif)  
+📧 Email: mjunaidasif@gmail.com
+
+---
+
+
+
+
+
 
 ## 🧠 Methodology
 
