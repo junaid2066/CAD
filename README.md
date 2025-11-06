@@ -1,7 +1,6 @@
 # Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces
-Accepted for Publication in IEEE C-Code 2025
-
-# Research Output
+-----
+**Research Publication**
 **"Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces"**  
 Published in the *Proceedings of the IEEE 4th International Conference on Communication, Computing and Digital Systems (C-CODE)*, 2025.  
 DOI: [10.1109/11204064](https://ieeexplore.ieee.org/document/11204064)
