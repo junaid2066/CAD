@@ -1,9 +1,23 @@
 # Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces
 -----
-**Research Publication**
+**Research Publication**  
 **"Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces"**  
 Published in the *Proceedings of the IEEE 4th International Conference on Communication, Computing and Digital Systems (C-CODE)*, 2025.  
 DOI: [10.1109/11204064](https://ieeexplore.ieee.org/document/11204064)
+
+Citation:
+```bash
+@INPROCEEDINGS{11204064,
+  author={Asif, Muhammad Junaid and Saqib, Shazia and Ahmad, Rana Fayyaz and Asad, Mujtaba and Hussain Rizvi, Syed Tahir},
+  booktitle={2025 4th International Conference on Communication, Computing and Digital Systems (C-CODE)}, 
+  title={Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Deep learning;Image analysis;Surveillance;Roads;Feature extraction;Public security;Real-time systems;Reliability;Long short term memory;Sports;Crowd scene analysis;Behavior analysis;Anomaly detection;Conv-LSTM;VGG19;LSTM;Wide Dense Residual block},
+  doi={10.1109/C-CODE67372.2025.11204064}}
+```
 
 ---
 
