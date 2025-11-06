@@ -1,11 +1,19 @@
 # Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces
+This project focuses on **real-time violence detection** in video datasets using deep learning-based visual models.  
+Two benchmark datasets were used for experimentation:
+
+1. **Real-Life Violence Situation Dataset (RLVS)** – for initial evaluation.  
+2. **Hockey Fight Dataset (HFD)** – for final model validation.
+
+The models were trained to differentiate between violent and non-violent actions using convolutional neural networks (CNNs) and transfer learning strategies.
+
 -----
 **Research Publication**  
 **"Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces"**  
 Published in the *Proceedings of the IEEE 4th International Conference on Communication, Computing and Digital Systems (C-CODE)*, 2025.  
 DOI: [10.1109/11204064](https://ieeexplore.ieee.org/document/11204064)
 
-Citation:
+**Citation:**
 ```bash
 @INPROCEEDINGS{11204064,
   author={Asif, Muhammad Junaid and Saqib, Shazia and Ahmad, Rana Fayyaz and Asad, Mujtaba and Hussain Rizvi, Syed Tahir},
@@ -23,13 +31,6 @@ Citation:
 
 ## 📘 Overview
 
-This project focuses on **real-time violence detection** in video datasets using deep learning-based visual models.  
-Two benchmark datasets were used for experimentation:
-
-1. **Real-Life Violence Dataset (RLVD)** – for initial evaluation.  
-2. **Hockey Fight Dataset (HFD)** – for final model validation.
-
-The models were trained to differentiate between violent and non-violent actions using convolutional neural networks (CNNs) and transfer learning strategies.
 
 ---
 
