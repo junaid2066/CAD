@@ -1,0 +1,10 @@
+tensorflow==2.12.0
+keras==2.12.0
+numpy
+matplotlib
+pandas
+opencv-python
+scikit-learn
+torch
+torchvision
+jupyter
