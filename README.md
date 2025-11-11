@@ -156,6 +156,6 @@ If you use this repository in your research or projects, please cite it as:
 
 👨‍💻 **Developed by Muhammad Junaid Asif**  
 🔗 GitHub: [@mjunaidasif](https://github.com/mjunaidasif)  
-📧 Email: mjunaidasif@gmail.com
+📧 Email: mjunaid94ee@outlook.com
 
 ---
