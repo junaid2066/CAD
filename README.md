@@ -9,6 +9,8 @@ The models were trained to differentiate between violent and non-violent actions
 
 ## Proposed Methodology
 <img width="521" height="384" alt="Fig 02  Proposed Model for Crowd Anomaly Detection" src="https://github.com/user-attachments/assets/08f95a8d-28ac-4211-b683-a9bf697ae51b" />
+
+
 -----
 **Research Publication**  
 **"Conv-LSTM for Real-Time Spatio-Temporal Analysis of Crowd Behavior in Public Spaces"**  
