@@ -156,6 +156,12 @@ If you use this repository in your research or projects, please cite it as:
 
 ---
 
+## 🔒 Access to Code
+If you want access to the code, click below:
+[📩 Request Code Access](mailto:muhammadjunaid94ee@gmail.com?subject=Request%20for%20Code%20Access&body=Hello,%20I%20am%20interested%20in%20your%20project%20Titled:CAD:%20A%20Crowd%20Anomaly%20Detection.%20Please%20share%20access.)
+
+-----
+
 ## ✍️ Author
 
 👨‍💻 **Developed by Muhammad Junaid Asif**  
