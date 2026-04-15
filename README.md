@@ -111,11 +111,21 @@ python main.py
 - **Recall:** 0.92
 - **F1-Score:** 0.90
 
+<img width="208" height="144" alt="Fig 06  Confusion Matrix for Experimental Results on RLVS Dataset" src="https://github.com/user-attachments/assets/424a3b64-9310-465f-a53f-e48af3f8de3a" />
+
+<img width="518" height="192" alt="Fig 07b  Model Accuracy vs  Loss for RLVS Dataset" src="https://github.com/user-attachments/assets/84b4b157-ff47-4874-97c3-6c2f23fadec6" />
+
+
 ### 🏒 Hockey Fight Dataset (Final Results)
 - **Accuracy:** 91.0%  
 - **Precision:** 0.91 
 - **Recall:** 0.82 
 - **F1-Score:** 0.86 
+
+<img width="237" height="200" alt="Fig 05  Confusion Matrix for Experimental Results on Hockey Fight Dataset" src="https://github.com/user-attachments/assets/379f7604-1252-4051-af60-ac7a5598130c" />
+
+<img width="524" height="192" alt="Fig 07a  Model Accuracy vs  Loss for Hockey Fight Dataset" src="https://github.com/user-attachments/assets/eebae95f-7f53-4153-afe0-8e25eb5d8000" />
+
 
 These results confirm the model’s robustness across diverse environments and datasets.
 
